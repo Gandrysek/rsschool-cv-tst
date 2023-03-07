@@ -35,3 +35,30 @@ Hi! I'm 20 y.o. student from Gdansk. I want to get knowledge and skills that wil
 - Russian **native**
 - Polish **B2**
 - English **B1**
+
+# Education
+
+- Gdansk Univercity of Technology : Computer Science (active)
+- RS School JS/FE Pre-School 2022Q4 (active)
+
+# Code example
+
+```
+function sortItems(array) {
+	for (let i = 0; i < array.length; i++) {
+		for (let j = 0; j < array.length; j++) {
+			if (array[j] > array[j + 1]) {
+				let temp = array[j];
+				array[j] = array[j + 1];
+				array[j + 1] = temp;
+			}
+		}
+	}
+	return array;
+}
+
+```
+
+# Work experience:
+
+No work experience ;(
